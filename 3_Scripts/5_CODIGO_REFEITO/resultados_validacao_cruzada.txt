@@ -1,0 +1,26 @@
+Rodando 5x6 = 30 folds...
+  5 folds concluídos
+  10 folds concluídos
+  15 folds concluídos
+  20 folds concluídos
+  25 folds concluídos
+  30 folds concluídos
+
+==============================================================================
+CENÁRIO 4classes  —  Macro F1 (média ± dp de 30 folds)  |  vs Baseline
+==============================================================================
+Baseline      Macro=0.640 ± 0.023    (Neutro F1=0.422)
+Sinônimos     Macro=0.634 ± 0.023    Δ=-0.007  Wilcoxon p=0.0879 ns  t p=0.0349  (Neutro F1=0.403)
+SLAF          Macro=0.620 ± 0.026    Δ=-0.020  Wilcoxon p=0.0002 ***  t p=0.0002  (Neutro F1=0.401)
+Rewriting     Macro=0.631 ± 0.027    Δ=-0.009  Wilcoxon p=0.0262 *  t p=0.0179  (Neutro F1=0.384)
+
+==============================================================================
+CENÁRIO 3classes  —  Macro F1 (média ± dp de 30 folds)  |  vs Baseline
+==============================================================================
+Baseline      Macro=0.733 ± 0.017    (Neutro F1=0.658)
+Sinônimos     Macro=0.716 ± 0.020    Δ=-0.017  Wilcoxon p=0.0006 ***  t p=0.0003  (Neutro F1=0.604)
+SLAF          Macro=0.694 ± 0.018    Δ=-0.040  Wilcoxon p=0.0000 ***  t p=0.0000  (Neutro F1=0.547)
+Rewriting     Macro=0.727 ± 0.014    Δ=-0.006  Wilcoxon p=0.0208 *  t p=0.0132  (Neutro F1=0.639)
+
+Legenda: *** p<0,001  ** p<0,01  * p<0,05  ns = não significativo (vs baseline).
+Δ = diferença de Macro F1 média em relação ao baseline.
