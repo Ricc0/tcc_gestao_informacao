@@ -1,0 +1,30 @@
+# === Dados brutos e sensíveis (comentários reais de usuários — privacidade) ===
+2_Dados/
+*.xlsx
+comentarios_youtube.xlsx
+
+# === Artigos/PDFs de terceiros (direitos autorais) ===
+1_Artigos_e_Referencias/
+
+# === Documentos do TCC (drafts .docx/.pdf) ===
+5_Documentacao_TCC/
+
+# === Notebooks com dados reais nos outputs (privacidade de terceiros) ===
+# Removidos do repositório público porque os outputs das células contêm
+# os comentários reais coletados. Para publicar, limpar os outputs antes.
+*.ipynb
+
+# === Config local do Claude Code ===
+.claude/
+
+# === Caches e temporários ===
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+~$*
+*.tmp
+_*.py
+_*.txt
+.DS_Store
+Thumbs.db
